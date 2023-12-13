@@ -1,4 +1,4 @@
-# Car Race
+# Corrida de carros
 
 ![alt](assets/car_race.gif)
 
