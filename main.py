@@ -33,7 +33,7 @@ while esta_executando:
   # redesenha elementos na janela
   visual.desenhar_estrada(janela)
   # Questão 4
-  visual.desenhar_carros(janela)
+  visual.desenhar_carros(janela, [])
   visual.atualizar_tela()
   
   # Questão 7, item 2
