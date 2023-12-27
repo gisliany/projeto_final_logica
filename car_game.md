@@ -38,7 +38,7 @@ Temos três arquivos .py sobre os quais iremos trabalhar:
 
 4. Procure pela linha em que a função `desenhar_carros` é chamada. Vamos adicionar seu segundo argumento: uma matriz. A primeira linha dela deve conter as varáveis `carro` e `carro_loc`, enquanto a segunda linha deve ter as variáveis `carro2` e `carro2_loc`.
 
-  Agora, dentro do while, precisaremos criar toda a mecânica do jogo: fazer o carro adversário se movimentar aleatoriamente, alternar de faixa o veículo do jogador caso ele use as teclas de setinha (ou as teclas a/d) e verificar se houve colisão entre os carros. Cada uma dessas ações terá uma função, a ser definida no arquivo `mecanica.py` e chamada na `main.py`.
+  Nas próximas questões, dentro do while, precisaremos criar toda a mecânica do jogo: fazer o carro adversário se movimentar aleatoriamente, alternar de faixa o veículo do jogador caso ele use as teclas de setinha (ou as teclas a/d) e verificar se houve colisão entre os carros. Cada uma dessas ações terá uma função, a ser definida no arquivo `mecanica.py` e chamada na `main.py`.
 
 5. Vamos começar definindo uma função `mover_adversario_aleatoriamente` em `mecanica.py`, quem tem como parâmetros `carro_posicao` e `velocidade`.
    - Mover o carro nada mais é do que alterar sua posição vertical (eixo y) na tela. Considere que `carro_posicao` é uma variável especial que obtivemos do pygame e que funciona como uma lista: no índice zero temos a posição da lateral esquerda do carro (eixo x) e no índice um, a posição do topo (eixo y). Então, vamos incrementar sua posição vertical, somando-a à variável velocidade.
@@ -66,4 +66,4 @@ Temos três arquivos .py sobre os quais iremos trabalhar:
 
 9.  Fora do laço while, chame a função `encerrar_jogo` do módulo visual.
 
-10. O que é um jogo sem música, né? Na `main.py`, chame a função `inicialiar_musica()` do módulo visual, na linha segunte à da criação da variável `janela`.
+10. O que é um jogo sem música, né? Na `main.py`, chame a função `inicializar_musica()` do módulo visual, na linha segunte à da criação da variável `janela`.
